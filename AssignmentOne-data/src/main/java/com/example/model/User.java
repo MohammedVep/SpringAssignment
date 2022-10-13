@@ -10,6 +10,16 @@ public class User {
     private String state;
     private String zipPostalCode;
     private String Country;
+    private String userName;
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     private LocalDate birthday;
 
     public String getFirstName() {

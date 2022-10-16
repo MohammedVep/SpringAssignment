@@ -9,6 +9,15 @@ public class Planning {
     private Timer minutes;
 
     private String mealType;
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Date getMealDate() {
         return mealDate;

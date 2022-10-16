@@ -12,6 +12,16 @@ public class User {
     private String Country;
     private String userName;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    private Long id;
+
     public String getUserName() {
         return userName;
     }
